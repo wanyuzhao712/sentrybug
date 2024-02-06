@@ -1,0 +1,2811 @@
+{
+    "id": "10ac2048bcbf44a493be52aa7bcd464c",
+    "groupID": "4697615",
+    "eventID": "10ac2048bcbf44a493be52aa7bcd464c",
+    "projectID": "20",
+    "size": 69668,
+    "entries": [
+        {
+            "data": {
+                "values": [
+                    {
+                        "type": "IllegalStateException",
+                        "value": "Can not perform this action after onSaveInstanceState",
+                        "mechanism": {
+                            "type": "UncaughtExceptionHandler",
+                            "handled": false
+                        },
+                        "threadId": 2,
+                        "module": "java.lang",
+                        "stacktrace": {
+                            "frames": [
+                                {
+                                    "filename": "ZygoteInit.java",
+                                    "absPath": "ZygoteInit.java",
+                                    "module": "com.android.internal.os.ZygoteInit",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "main",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 1013,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "RuntimeInit.java",
+                                    "absPath": "RuntimeInit.java",
+                                    "module": "com.android.internal.os.RuntimeInit$MethodAndArgsCaller",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "run",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 552,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Method.java",
+                                    "absPath": "Method.java",
+                                    "module": "java.lang.reflect.Method",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "invoke",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": null,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "ActivityThread.java",
+                                    "absPath": "ActivityThread.java",
+                                    "module": "android.app.ActivityThread",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "main",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 8293,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Looper.java",
+                                    "absPath": "Looper.java",
+                                    "module": "android.os.Looper",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "loop",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 326,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Looper.java",
+                                    "absPath": "Looper.java",
+                                    "module": "android.os.Looper",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "loopOnce",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 225,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Handler.java",
+                                    "absPath": "Handler.java",
+                                    "module": "android.os.Handler",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "dispatchMessage",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 99,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Handler.java",
+                                    "absPath": "Handler.java",
+                                    "module": "android.os.Handler",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "handleCallback",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 938,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1$$InternalSyntheticLambda$1$4ec85956eedcb160a0895cee6bf63a4075ed4f0aeb1d730493e226b7e1834c9f$0",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "run",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 0,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "$r8$lambda$hVGjmafRi6VitDIrPNdoFizVAdk",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 0,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "lambda$onResponse$0",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 91,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "retrofit2.KotlinExtensions$await$2$2",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "onResponse",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 56,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeWith",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 0,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeImpl$default",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 0,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeImpl",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 431,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "dispatchResume",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 397,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.DispatchedTaskKt",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "dispatch",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 161,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.DispatchedTaskKt",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeUnconfined",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 194,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.DispatchedTaskKt",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resume",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 177,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "kotlinx.coroutines.internal.DispatchedContinuation",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeUndispatchedWith",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 258,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlin.coroutines.jvm.internal.BaseContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeWith",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 33,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "cn.xxx.liveroom.ClassRoomActivity$showClassesOver$1$1$2",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "invokeSuspend",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 979,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "cn.xxx.basic.dialog.GuidedUpgradeDialog$Companion",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "showDialog",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 38,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "cn.xxx.basic.dialog.GuidedUpgradeDialog$Companion",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "showDialog",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 79,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "cn.xxx.basic.dialog.GuidedUpgradeDialog$Companion",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "showDialog",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 34,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.DialogFragment",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "show",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 262,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "androidx.fragment.app.BackStackRecord",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "commit",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 0,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.BackStackRecord",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "commitInternal",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 343,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.FragmentManager",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "enqueueAction",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 1650,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.FragmentManager",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "checkStateLoss",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 1614,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                }
+                            ],
+                            "framesOmitted": null,
+                            "registers": null,
+                            "hasSystemFrames": false
+                        },
+                        "rawStacktrace": {
+                            "frames": [
+                                {
+                                    "filename": "ZygoteInit.java",
+                                    "absPath": "ZygoteInit.java",
+                                    "module": "com.android.internal.os.ZygoteInit",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "main",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 1013,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "RuntimeInit.java",
+                                    "absPath": "RuntimeInit.java",
+                                    "module": "com.android.internal.os.RuntimeInit$MethodAndArgsCaller",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "run",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 552,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Method.java",
+                                    "absPath": "Method.java",
+                                    "module": "java.lang.reflect.Method",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "invoke",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": null,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "ActivityThread.java",
+                                    "absPath": "ActivityThread.java",
+                                    "module": "android.app.ActivityThread",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "main",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 8293,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Looper.java",
+                                    "absPath": "Looper.java",
+                                    "module": "android.os.Looper",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "loop",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 326,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Looper.java",
+                                    "absPath": "Looper.java",
+                                    "module": "android.os.Looper",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "loopOnce",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 225,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Handler.java",
+                                    "absPath": "Handler.java",
+                                    "module": "android.os.Handler",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "dispatchMessage",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 99,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "Handler.java",
+                                    "absPath": "Handler.java",
+                                    "module": "android.os.Handler",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "handleCallback",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 938,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "retrofit2.a",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "run",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 6,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "b",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 0,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "lambda$onResponse$0",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 26,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "retrofit2.KotlinExtensions$await$2$2",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "onResponse",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 118,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeWith",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 10,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeImpl$default",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 7,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeImpl",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 30,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.CancellableContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "dispatchResume",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 8,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.DispatchedTaskKt",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "dispatch",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 48,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.DispatchedTaskKt",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeUnconfined",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 25,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlinx.coroutines.DispatchedTaskKt",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resume",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 56,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "kotlin.coroutines.jvm.internal.BaseContinuationImpl",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "resumeWith",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 12,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "cn.xxx.liveroom.ClassRoomActivity$b7$b",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "invokeSuspend",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 142,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "n3.o$a",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "a",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 34,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "n3.o$a",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "b",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 54,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "n3.o$a",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "c",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 17,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.c",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "show",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 6,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": null,
+                                    "absPath": null,
+                                    "module": "androidx.fragment.app.a",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "l",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 1,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.a",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "H",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 73,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.FragmentManager",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "b0",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 27,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                },
+                                {
+                                    "filename": "SourceFile",
+                                    "absPath": "SourceFile",
+                                    "module": "androidx.fragment.app.FragmentManager",
+                                    "package": null,
+                                    "platform": null,
+                                    "instructionAddr": null,
+                                    "symbolAddr": null,
+                                    "function": "s",
+                                    "rawFunction": null,
+                                    "symbol": null,
+                                    "context": [],
+                                    "lineNo": 12,
+                                    "colNo": null,
+                                    "inApp": false,
+                                    "trust": null,
+                                    "errors": null,
+                                    "vars": null
+                                }
+                            ],
+                            "framesOmitted": null,
+                            "registers": null,
+                            "hasSystemFrames": false
+                        }
+                    }
+                ],
+                "hasSystemFrames": false,
+                "excOmitted": null
+            },
+            "type": "exception"
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:12:20.827000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 587405,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_a0ebf743-1ece-47d1-a378-0ee3279e7e11.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:12:21.047000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:13:20.325000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 571645,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_973419b0-6465-46b2-8d89-9c6c5504ff9a.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:13:20.426000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:14:20.188000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 605575,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_116d351c-bf75-425e-aa52-ed0669ed3acc.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:14:20.322000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:15:19.904000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 19,
+                            "status_code": 200,
+                            "url": "https://a0d-cdn.xxx.cn/mix/app/getCosTempToken"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:15:20.815000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 525832,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_f25160b4-f763-4dfa-9422-01d7e7142c7e.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:15:20.951000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:16:20.428000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 814420,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_9c81d881-7282-4fe4-93ac-6921dcc05d6c.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:16:20.723000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:17:20.514000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 734485,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_950a15da-03ec-4735-9d58-99f5d297866e.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:17:20.630000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:18:20.007000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 615648,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_914b7b08-d2f8-4bff-8843-a1dc4f959336.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:18:20.124000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:18:37.038000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 1045,
+                            "response_body_size": 61,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/uploadNetworkDetails"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:19:20.392000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 474744,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_3619d58b-e4ea-4832-854d-e93b7fb2e6b4.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:19:20.466000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:19:22.708000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STARTED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:19:24.315000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_OFF"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:20:19.715000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_1a75ae60-3a24-4a7f-93b8-590c00f57bac.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:20:19.857000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:21:19.723000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_b4652380-5801-421a-a113-3cf523ad8f93.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:21:19.862000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:22:19.728000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_e5035ef6-4c08-4717-9b82-a77c9542efaa.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:22:19.868000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:23:19.771000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_e8622dc1-45ae-465f-bac8-b39285d97d32.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:23:19.871000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:23:37.577000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 1047,
+                            "response_body_size": 61,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/uploadNetworkDetails"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:24:19.744000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_5a5e7441-bbc7-4dbe-bca1-4999f2b1c058.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:24:19.872000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:25:19.752000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_71e118e7-3724-4ee7-851e-81eb20a5b1d1.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:25:19.888000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:28.424000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STOPPED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:29.254000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_ON"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:29.464000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STARTED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:30.046000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_OFF"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:33.577000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STOPPED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:34.067000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_ON"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:34.573000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STARTED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:25:35.104000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_OFF"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:26:19.755000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_6e6a4639-2758-4d07-8966-0f30da62a870.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:26:19.889000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:27:19.766000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_5c3486ca-e129-41c2-9e7a-1f40b663d3c5.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:27:19.898000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:28:15.142000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STOPPED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:28:15.652000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_ON"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:28:21.344000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STARTED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:28:21.617000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 659368,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_6a34f288-8581-42c1-801a-ca62a754f2da.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:28:21.828000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:28:21.954000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_OFF"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:28:37.614000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 1047,
+                            "response_body_size": 61,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/uploadNetworkDetails"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:29:19.781000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_11acd499-5569-4350-a03b-33456e985921.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:29:19.916000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:29:27.295000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STOPPED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:29:27.833000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_ON"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:29:28.528000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STARTED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:29:29.092000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_OFF"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:30:19.789000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 6598,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_79b3b621-908d-4bce-82af-ed12e7e2f1ad.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:30:19.929000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:30:38.109000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "DREAMING_STOPPED"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "system",
+                        "timestamp": "2024-02-06T05:30:38.796000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "device.event",
+                        "data": {
+                            "action": "SCREEN_ON"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:31:20.418000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 643629,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_d01c3181-8e7d-4a72-8fc1-038119a450bc.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:31:20.543000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:32:20.226000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 567607,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_7dea4608-2267-4c26-8dc3-737df82389c8.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:32:20.340000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:33:21.234000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 693786,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_495c0e8d-ae38-4ebc-8a98-65952c286f0f.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:33:21.377000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:33:38.052000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 1053,
+                            "response_body_size": 61,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/uploadNetworkDetails"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:34:20.229000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 526614,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_ca5bfd29-2dbc-4ad3-a775-30535390a277.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:34:20.364000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:35:19.822000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 19,
+                            "status_code": 200,
+                            "url": "https://a0d-cdn.xxx.cn/mix/app/getCosTempToken"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:35:20.743000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 472330,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_388baca4-f5ec-4365-a6d0-2cff055fd8da.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:35:20.952000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:36:21.050000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 536300,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_2a1ec976-9fdb-41a6-a3e7-85d794344cfd.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:36:21.492000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:37:20.060000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 451796,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_b16f6f84-c907-410d-8f59-223422b8c679.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:37:20.179000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:38:20.244000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 384081,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_69ec4fc4-1316-4511-ae7a-70672d21cdb8.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:38:20.456000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:38:38.611000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 1053,
+                            "response_body_size": 61,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/uploadNetworkDetails"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:39:20.050000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 267008,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_ec983c10-75ec-47cc-b9e3-c7bad2e2f0cd.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:39:20.182000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:20.154000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 544183,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://mnt.xxx.cn/20240206/04_a7666bb0-ceb6-4b09-93f4-7d216127a85e.jpg"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:20.265000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 148,
+                            "response_body_size": 1195,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/addClassMonitorPic"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:34.596000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 1049,
+                            "response_body_size": 61,
+                            "status_code": 200,
+                            "url": "https://collectinfo.xxx.cn/v2/uploadNetworkDetails"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:34.806000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 20,
+                            "status_code": 200,
+                            "url": "https://a0d-cdn.xxx.cn/mix/app/getCosTempToken"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.472000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.lifecycle",
+                        "data": {
+                            "screen": "ClassRoomActivity",
+                            "state": "destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.474000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "wi.t",
+                            "state": "view destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.475000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "wi.t",
+                            "state": "destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.475000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "wi.t",
+                            "state": "detached"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.478000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "cn.xxx.liveroom.s4",
+                            "state": "view destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.479000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "cn.xxx.liveroom.s4",
+                            "state": "destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.480000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "cn.xxx.liveroom.s4",
+                            "state": "detached"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.481000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "cn.xxx.liveroom.a5",
+                            "state": "view destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.482000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "cn.xxx.liveroom.a5",
+                            "state": "destroyed"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "navigation",
+                        "timestamp": "2024-02-06T05:40:35.482000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "ui.fragment.lifecycle",
+                        "data": {
+                            "screen": "cn.xxx.liveroom.a5",
+                            "state": "detached"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:35.637000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 40,
+                            "status_code": 200,
+                            "url": "https://a0d-cdn.xxx.cn/coreapi/app/school/settingV2"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:36.570000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "PUT",
+                            "request_body_size": 579301,
+                            "response_body_size": 0,
+                            "status_code": 200,
+                            "url": "https://uplogfile.xxx.cn/files/clientlog/run/20240206/04_4ff69b1dd8b7416eb31e838a6d9687fc.zip"
+                        },
+                        "event_id": null
+                    },
+                    {
+                        "type": "http",
+                        "timestamp": "2024-02-06T05:40:36.650000Z",
+                        "level": "info",
+                        "message": null,
+                        "category": "http",
+                        "data": {
+                            "method": "POST",
+                            "request_body_size": 235,
+                            "response_body_size": 65,
+                            "status_code": 200,
+                            "url": "https://a0d-cdn.xxx.cn/ebase/api/oslog/uploadClientLog"
+                        },
+                        "event_id": null
+                    }
+                ]
+            },
+            "type": "breadcrumbs"
+        },
+        {
+            "data": {
+                "images": [
+                    {
+                        "uuid": "3c22e86e-1641-45a0-aeb5-8e16a4e0486b",
+                        "type": "proguard"
+                    }
+                ]
+            },
+            "type": "debugmeta"
+        }
+    ],
+    "dist": "22303",
+    "message": "",
+    "title": "IllegalStateException: Can not perform this action after onSaveInstanceState",
+    "location": "SourceFile",
+    "user": {
+        "id": "53379254",
+        "email": "53379254@classin.com",
+        "username": null,
+        "ip_address": null,
+        "name": null,
+        "data": null
+    },
+    "contexts": {
+        "app": {
+            "app_start_time": "2024-02-06T04:59:06.049Z",
+            "app_identifier": "cn.xxx.classin",
+            "app_name": "ClassIn",
+            "app_version": "5.1.1.123",
+            "app_build": "22303",
+            "in_foreground": false,
+            "permissions": {
+                "ACCESS_NETWORK_STATE": "granted",
+                "ACCESS_WIFI_STATE": "granted",
+                "BLUETOOTH_CONNECT": "granted",
+                "BROADCAST_CLOSE_SYSTEM_DIALOGS": "not_granted",
+                "CAMERA": "granted",
+                "CHANGE_BADGE": "not_granted",
+                "CHANGE_NETWORK_STATE": "granted",
+                "CHANGE_WIFI_STATE": "granted",
+                "DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION": "granted",
+                "ENTER_VIRTUAL_SYSTEM": "not_granted",
+                "FLASHLIGHT": "granted",
+                "FOREGROUND_SERVICE": "granted",
+                "INTERACT_ACROSS_USERS_FULL": "not_granted",
+                "INTERNET": "granted",
+                "MDM": "not_granted",
+                "MIPUSH_RECEIVE": "granted",
+                "MODIFY_AUDIO_SETTINGS": "granted",
+                "POST_NOTIFICATIONS": "not_granted",
+                "PROCESS_PUSH_MSG": "granted",
+                "PUSH_PROVIDER": "granted",
+                "READ_CONTACTS": "not_granted",
+                "READ_EXTERNAL_STORAGE": "granted",
+                "READ_MEDIA_AUDIO": "not_granted",
+                "READ_MEDIA_IMAGES": "not_granted",
+                "READ_MEDIA_VIDEO": "not_granted",
+                "READ_PHONE_STATE": "granted",
+                "RECEIVE_USER_PRESENT": "not_granted",
+                "RECIEVE_MCS_MESSAGE": "not_granted",
+                "RECORD_AUDIO": "granted",
+                "REQUEST_INSTALL_PACKAGES": "not_granted",
+                "SYSTEM_ALERT_WINDOW": "not_granted",
+                "USE_BIOMETRIC": "granted",
+                "USE_FINGERPRINT": "granted",
+                "VIBRATE": "granted",
+                "WAKE_LOCK": "granted"
+            },
+            "type": "app"
+        },
+        "device": {
+            "family": "Lenovo",
+            "model": "Lenovo TB-J606F",
+            "model_id": "SKQ1.220213.001",
+            "battery_level": 42.0,
+            "orientation": "landscape",
+            "manufacturer": "LENOVO",
+            "brand": "Lenovo",
+            "screen_density": 1.5,
+            "screen_dpi": 240,
+            "online": true,
+            "charging": false,
+            "low_memory": false,
+            "simulator": false,
+            "memory_size": 5933670400,
+            "free_memory": 2618814464,
+            "storage_size": 110002778112,
+            "free_storage": 67529195520,
+            "boot_time": "2024-02-06T03:44:50.551Z",
+            "timezone": "Asia/Shanghai",
+            "archs": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "armeabi"
+            ],
+            "battery_temperature": 33.7,
+            "connection_type": "wifi",
+            "id": "0a044ee8-5db6-46a9-98ae-59c43cab32bc",
+            "language": "zh",
+            "locale": "zh_CN",
+            "screen_height_pixels": 1128,
+            "screen_width_pixels": 2000,
+            "type": "device"
+        },
+        "os": {
+            "name": "Android",
+            "version": "12",
+            "build": "TB-J606F_CN_OPEN_USER_Q00024.0_S_ZUI_14.0.147_ST_230414",
+            "kernel_version": "4.19.157-perf+",
+            "rooted": false,
+            "type": "os"
+        }
+    },
+    "sdk": {
+        "name": "sentry.java.android",
+        "version": "6.16.0"
+    },
+    "context": {},
+  
+    "type": "error",
+    "metadata": {
+        "display_title_with_tree_label": false,
+        "filename": "SourceFile",
+        "function": "checkStateLoss",
+        "type": "IllegalStateException",
+        "value": "Can not perform this action after onSaveInstanceState"
+    },
+    "tags": [
+        {
+            "key": "device",
+            "value": "Lenovo TB-J606F"
+        },
+        {
+            "key": "device.family",
+            "value": "Lenovo"
+        },
+        {
+            "key": "dist",
+            "value": "22303"
+        },
+        {
+            "key": "environment",
+            "value": "production"
+        },
+        {
+            "key": "handled",
+            "value": "no"
+        },
+        {
+            "key": "installerStore",
+            "value": "com.lenovo.leos.appstore.pad"
+        },
+        {
+            "key": "isSideLoaded",
+            "value": "false"
+        },
+        {
+            "key": "level",
+            "value": "fatal"
+        },
+        {
+            "key": "mechanism",
+            "value": "UncaughtExceptionHandler"
+        },
+        {
+            "key": "os",
+            "value": "Android 12"
+        },
+        {
+            "key": "os.name",
+            "value": "Android"
+        },
+        {
+            "key": "os.rooted",
+            "value": "no"
+        },
+        {
+            "key": "release",
+            "value": "5.1.1.123"
+        },
+        {
+            "key": "user",
+            "value": "id:53379254",
+            "query": "user.id:\"53379254\""
+        }
+    ],
+    "platform": "java",
+    "dateReceived": "2024-02-06T05:40:37.778360Z",
+    "errors": [],
+    "_meta": {
+        "entries": {},
+        "message": null,
+        "user": null,
+        "contexts": null,
+        "sdk": null,
+        "context": null,
+        "packages": null,
+        "tags": {}
+    },
+    "crashFile": null,
+    "culprit": "androidx.fragment.app.FragmentManager in checkStateLoss",
+    "dateCreated": "2024-02-06T05:40:36.993000Z",
+    "fingerprints": [
+        "9830652278d87d6954d8a7ae24f5c694"
+    ],
+    "groupingConfig": {
+        "enhancements": "eJybzDRxY3J-bm5-npWRgaGlroGxrpHxBABcYgcZ",
+        "id": "newstyle:2019-10-29"
+    },
+    "release": {
+        "version": "5.1.1.123",
+        "status": "open",
+        "shortVersion": "5.1.1.123",
+        "versionInfo": {
+            "package": null,
+            "version": {
+                "raw": "5.1.1.123"
+            },
+            "description": "5.1.1.123",
+            "buildHash": null
+        },
+        "ref": null,
+        "url": null,
+        "dateReleased": null,
+        "dateCreated": "2023-12-21T15:09:35.864000Z",
+        "data": {},
+        "newGroups": 6278,
+        "owner": null,
+        "commitCount": 0,
+        "lastCommit": null,
+        "deployCount": 0,
+        "lastDeploy": null,
+        "authors": [],
+        "projects": [
+            {
+                "id": 20,
+                "slug": "classin-android",
+                "name": "classin-android",
+                "newGroups": 6278,
+                "platform": "android",
+                "platforms": [
+                    "native",
+                    "java"
+                ],
+                "hasHealthData": false
+            }
+        ],
+        "firstEvent": "2024-01-09T05:41:11Z",
+        "lastEvent": "2024-02-06T05:41:07Z",
+        "currentProjectMeta": {}
+    },
+    "userReport": null,
+    "sdkUpdates": [],
+    "nextEventID": null,
+    "previousEventID": "7fb6a9b3046a48dc92ef3a4036ad82ae"
+}
